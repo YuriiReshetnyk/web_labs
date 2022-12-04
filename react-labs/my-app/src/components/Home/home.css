@@ -1,0 +1,61 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.home p{
+    margin-top: 50px;
+    width: 650px;
+}
+
+.home__info{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home__info__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.home__info img{
+    height: 300px;
+}
+
+.home-card{
+    max-width: 250px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+}
+/* 
+.advs{
+    display: flex;
+    flex-direction: column;
+} */
+
+/* .advs-cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+} */
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width: 1200px;
+    margin-left: 270px;
+}
+
+li:nth-child(3n){
+    flex-basis: 50%;
+}
+
+.text{
+    max-width: 230px;
+}

@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  
+}
+
+.applic{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+}
