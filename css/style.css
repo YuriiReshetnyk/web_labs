@@ -1,0 +1,90 @@
+body {
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    background-color: rgb(24, 24, 76);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header h1 {
+    color: rgb(195, 189, 189);
+}
+
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container h2 {
+    color: rgb(24, 24, 76);
+}
+
+.input {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: space-between;
+    border-color: black;
+    border: 5px;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+button {
+    width: 120px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+    background-color: rgb(24, 24, 76);
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+li {
+    border: 3px solid rgb(24, 24, 76);
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    height: 400px;
+}
+
+.item img {
+    width: 300px;
+}
+
+ul {
+    list-style-type: none;
+    list-style-position: inside;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.item-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.find-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.show-all,
+.delete {
+    background-color: white;
+    border: 1px solid;
+    border-color: rgb(24, 24, 76);
+    color: rgb(24, 24, 76);
+}
