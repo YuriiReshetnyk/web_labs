@@ -1,0 +1,27 @@
+.log-reg{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    padding: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sign-up{
+    display: flex;
+    margin-top: 30px;
+}
+
+.input-area-logging{
+    height: 50px;
+    margin-top: 20px;
+}
+
+.text-input-logging{
+    border-width: 0 0 2px 0;
+    border-bottom-color: blue;
+    width: 400px;
+}
